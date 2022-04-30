@@ -1,37 +1,36 @@
 # **Takım İsmi**
 
-Takım X
+Takım 13
 
 # Ürün İle İlgili Bilgiler
 
 ## Takım Elemanları
 
-- John Doe: Product Owner
-- Jane Doe: Scrum Master
-- Atıl Samancıoğlu: Team Member/Developer
+- Açılay Ayça Özata: Product Owner
+- Tuğçe Keskin: Scrum Master
+- Selman Altınbaş: Developer
+- Hatice Müberra Gül: Developer
+- Emre Biçer: Developer
 
 ## Ürün İsmi
 
---Movie App--
+--Subscription App--
 
 ## Ürün Açıklaması
 
-- Movie App uygulamamız ile insanların izlemek istediği filmlere ve dizilere daha kolay karar vermesini sağlayacağız. İçerisinde binlerce filmi barındıran uygulamamız aynı zamanda Netflix, Prime vb. platformlarda yayınlanıp yayınlanmadığını ve IMDB puanlarını da gösterecek.
+- Subsciption App uygulamamız ile insanların aboneliklerini yönetim sürecine kolaylık sağlayacağız. Kişiler aboneliklerinin aylık ücretlerini ve ödeme tarihlerini görüntülemenin yanı sıra uygulamanın içerisindeki muhasebe bölümüyle aylık gelir ve giderlerini finanse edebilecek. 
 
 ## Ürün Özellikleri
 
-- Filmleri türüne göre ayırma
-- Filmlerin yönetmen, aktör, aktris vb. bilgilerini posteriyle birlikte gösterme
-- IMDB ve Rotten Tomatoes puanlarını gösterme
-- Netflix'te ve Prime'da bulunurluğunu gösterme
+- Abonelikleri ve aylık ücretlerini görüntüleme
+- Aboneliğin aylık yenilenme tarihi (ödeme günü) geldiğinde bildirim alma
+- Kişilerin kendi bütçelerini yönetmesi
 
 ## Hedef Kitle
 
-- Netflix kullanıcıları
-- Prime kullanıcıları
-- Sinema severler
-- Dizi severler
-- 15 - 65 yaş arası kullanıcılar
+- Aboneliğe bağlı uygulama kullanıcıları
+- Gelir gider durumunu kontrol etmek isteyenler
+- Öğrenciler (?)
 
 ## Product Backlog URL
 
