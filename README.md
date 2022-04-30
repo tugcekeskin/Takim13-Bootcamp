@@ -1,6 +1,6 @@
 # **Takım İsmi**
 
-Takım 13
+Takım X
 
 # Ürün İle İlgili Bilgiler
 
