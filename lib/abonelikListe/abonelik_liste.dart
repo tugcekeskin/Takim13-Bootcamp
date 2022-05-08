@@ -26,7 +26,7 @@ class _AbonelikListeState extends State<AbonelikListe> {
               SizedBox(
                 width: double.infinity,
                 child: Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 30),
+                  padding: const EdgeInsets.symmetric(horizontal: 20),
                   child: Container(
                     child: Text('Abonelik Seçin',
                       style: TextStyle(
