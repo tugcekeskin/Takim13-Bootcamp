@@ -1,3 +1,4 @@
+import 'package:aboneliksayfasi/abonelikListe/abonelik_liste.dart';
 import 'package:aboneliksayfasi/abonelik_sayfasi.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         )
       ),
       debugShowCheckedModeBanner: false,
-      home: const AbonelikSayfasi(),
+      home: const AbonelikListe(),
     );
   }
 }
