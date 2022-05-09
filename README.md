@@ -64,7 +64,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
   ![Screenshot 2](https://github.com/tugcekeskin/Takim13-Bootcamp/blob/main/ProjectManagement/Sprint1Documents/product2.png?raw=true)
 
 - **Sprint Review**: 
-Alınan kararlar: Karar aşaması tahmin edilenden daha uzun sürdüğü için sprint sonunda katedilen ilerleme beklentiyi karşılamamıştır ve sprint hedefine ulaşılamamıştır.  Ekstra koyulması gereken özellikler belirlenmiştir. Sprint Review katılımcıları: Açılay Ayça Özata,Tuğçe Keskin, Selman Altınbaş, Hatice Müberra Gül, Emre Biçer
+Alınan kararlar: Karar aşaması tahmin edilenden daha uzun sürdüğü için sprint sonunda katedilen ilerleme beklentiyi karşılamamıştır ve sprint hedefine ulaşılamamıştır.  Ekstra koyulması gereken özellikler belirlenmiştir. Sprint Review katılımcıları: Açılay Ayça Özata, Tuğçe Keskin, Selman Altınbaş, Hatice Müberra Gül, Emre Biçer
 
 - **Sprint Retrospective:**
   - Ürünün kararlaştırılması ve taslak tasarımın yapılması konusundaki çalışmalar başarılıydı.
