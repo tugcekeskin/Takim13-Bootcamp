@@ -9,7 +9,7 @@ Takım 13
 - Açılay Ayça Özata: Product Owner
 - Tuğçe Keskin: Scrum Master
 - Selman Altınbaş: Developer
-- Hatice Müberra Gül: Developer
+- Hatice Müberra Gül: UI Designer/Developer
 - Emre Biçer: Developer
 
 ## Ürün İsmi
