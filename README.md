@@ -68,7 +68,7 @@ Alınan kararlar: Karar aşaması tahmin edilenden daha uzun sürdüğü için s
 
 - **Sprint Retrospective:**
   - Ürünün kararlaştırılması ve taslak tasarımın yapılması konusundaki çalışmalar başarılıydı.
-  - User stroy hedefleri en başından net olaak belirlenmeli ve belirlenen user storynin tüm taskleri yerine getirilmek üzere görev dağılımı yapılmalı
+  - User story hedefleri en başından net olaak belirlenmeli ve belirlenen user storynin tüm taskleri yerine getirilmek üzere görev dağılımı yapılmalı
   - Tahmin puanları gözden geçirilmeli 
   - Uygulama tasarımı gözden geçirilmeli
   
