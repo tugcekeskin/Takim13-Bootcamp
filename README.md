@@ -1,4 +1,4 @@
-# **Takım İsmi**
+# **MASTer**
 
 Takım 13
 
@@ -14,23 +14,27 @@ Takım 13
 
 ## Ürün İsmi
 
---Subscription App--
+--Subss--
 
 ## Ürün Açıklaması
 
-- Subsciption App uygulamamız ile insanların aboneliklerini yönetim sürecine kolaylık sağlayacağız. Kişiler aboneliklerinin aylık ücretlerini ve ödeme tarihlerini görüntülemenin yanı sıra uygulamanın içerisindeki muhasebe bölümüyle aylık gelir ve giderlerini finanse edebilecek. 
+- Subss uygulamamız ile kullanıcıların abonelik ve bütçe yönetim süreçlerini kolaylaştıracağız. Kişiler aboneliklerinin aylık ücretlerini ve ödeme tarihlerini görüntüleyebilecekler. Bütçe bölümüyle aylık gelir ve giderlerini takip edip analizine ulaşabileccekler. Takvim bölümüyle harcalamalarını görselleştirebilecekler ve önemli günlerinin takibini yapabilecekler. 
 
 ## Ürün Özellikleri
 
-- Abonelikleri ve aylık ücretlerini görüntüleme
+- Abonelikleri ve aboneliklerinin ücretini görüntüleme
+- Aboneliklere yapılan toplam harcamayı görüntüleme
+- Her bir abonelik özelinde harcama takibi yapma
 - Aboneliğin aylık yenilenme tarihi (ödeme günü) geldiğinde bildirim alma
-- Kişilerin kendi bütçelerini yönetmesi
+- Kullanıcılardan gelir-gider girdisi alarak toplam bütçe takibi yapma
+- Gelir ve gider verilerinin grafikleştirilmesiyle görsel bütçe analizi yapma
+- Gelir-gider verilerinin ve kullanıcıların ek girdilerinin takvim üzerinde gösterilmesi
 
 ## Hedef Kitle
 
-- Aboneliğe bağlı uygulama kullanıcıları
-- Gelir gider durumunu kontrol etmek isteyenler
-- Öğrenciler (?)
+- Abonelik sahibi olan ve bunun takibini yapmak isteyen kullanıcılar
+- Gelir-gider durumunun takibini yapmak isteyen kullanıcılar
+- Kişisel bütçesini görselleştirmek isteyen kullanıcılar
 
 ## Product Backlog URL
 
@@ -44,13 +48,13 @@ Takım 13
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
 
-- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 380 puanlık backlog bulunmaktadır. 4 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 380 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
 
-- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
+- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint'te karar aşamasındaki gecikmelerden ötürü istenilen ilerleme alınamasa da temel fonksiyon olan "Abonelik" için seçimler yapılmıştır. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
 
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
 
-- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/tugcekeskin/Takim13-Bootcamp/blob/main/ProjectManagement/Sprint1Documents/daily-scrum.docx?raw=true)
+- **Daily Scrum**: Daily Scrum toplantıları açılan Discord sunucusu üzerinden yapılmıştır. Yazılı görüşmeler ise sprint başında Slack üzerinden yapılsa da sonrasında daha rahat iletişim sağlayabilmek amacıyla Whatsapp üzerinden yapılmaya başlanmıştır. Daily Scrum toplantısı örneği Word dosyası olarak README'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/tugcekeskin/Takim13-Bootcamp/blob/main/ProjectManagement/Sprint1Documents/daily-scrum.docx?raw=true)
 
 - **Sprint board update**: Sprint board screenshotları: 
 ![Backlog 1](https://github.com/tugcekeskin/Takim13-Bootcamp/blob/main/ProjectManagement/Sprint1Documents/backlog1.png?raw=true) 
