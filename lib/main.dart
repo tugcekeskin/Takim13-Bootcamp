@@ -1,5 +1,6 @@
 import 'package:aboneliksayfasi/abonelikListe/abonelik_liste.dart';
 import 'package:aboneliksayfasi/abonelik_sayfasi.dart';
+import 'package:aboneliksayfasi/charts/butceAnaliz.dart';
 import 'package:flutter/material.dart';
 
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         )
       ),
       debugShowCheckedModeBanner: false,
-      home: const AbonelikListe(),
+      home: const ButceAnaliz(),
     );
   }
 }
