@@ -79,7 +79,36 @@ Alınan kararlar: Karar aşaması tahmin edilenden daha uzun sürdüğü için s
 
 # Sprint 2
 
+- **Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
 
+- **Sprint içinde tamamlanması tahmin edilen puan**: ???? Puan
+
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 400 puanlık backlog bulunmaktadır. Uygulamanın fonksiyonları arasında öncelik sıralaması yapıldığında ve karar aşamasındaki gecikmeler göz önüne alıdığında genel uygulama taslak tasarımları tamamlandıktan sonra ikinci sprint'in en azından ???? puan ile başlaması gerektiğine karar verildi.
+
+- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint'te karar aşamasındaki gecikmelerden ötürü istenilen ilerleme alınamasa da temel fonksiyon olan "Abonelik" için seçimler yapılmıştır. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
+
+Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
+
+- **Daily Scrum**: Daily Scrum toplantıları açılan Discord sunucusu üzerinden yapılmıştır. Yazılı görüşmeler ise sprint başında Slack üzerinden yapılsa da sonrasında daha rahat iletişim sağlayabilmek amacıyla Whatsapp üzerinden yapılmaya başlanmıştır. Daily Scrum toplantısı örneği Word dosyası olarak README'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/tugcekeskin/Takim13-Bootcamp/blob/main/ProjectManagement/Sprint1Documents/daily-scrum.docx?raw=true)
+
+- **Sprint board update**: Sprint board screenshot: 
+![Backlog 1](!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!) 
+
+- **Ürün Durumu**: Ekran görüntüleri:
+  ![Screenshot 1](!!!!!!!!!!!!!!!!!!!!!!!!!!!)
+  ![Screenshot 2](!!!!!!!!!!!!!!!!!!!!!!!!!!!)
+
+- **Sprint Review**: 
+Alınan kararlar: Karar aşaması tahmin edilenden daha uzun sürdüğü için sprint sonunda katedilen ilerleme beklentiyi karşılamamıştır ve sprint hedefine ulaşılamamıştır.  Uygulama sayfalarının tasarımlarının çoğu tamamlanmış, veritabanı, kullanıcı girişi ve kullanıcıya bildirim gönderme gibi işlevlerin sağlanabilmesi için firebase kullanılmasına karar verilmiştir. Sprint Review katılımcıları: Açılay Ayça Özata, Tuğçe Keskin, Selman Altınbaş, Hatice Müberra Gül, Emre Biçer
+
+- **Sprint Retrospective:**
+  - Ürünün kararlaştırılması ve taslak tasarımın yapılması konusundaki çalışmalar başarılıydı.
+  - User story hedefleri en başından net olarak belirlenmeli ve belirlenen user storynin tüm taskleri yerine getirilmek üzere görev dağılımı yapılmalı
+  - Tahmin puanları gözden geçirilmeli 
+  - Uygulama tasarımı gözden geçirilmeli
+  
+-**Diğer Notlar**:
+- N/A
 ---
 
 # Sprint 3
