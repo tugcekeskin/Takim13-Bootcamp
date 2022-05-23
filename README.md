@@ -100,10 +100,10 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
   ![Screenshot 3](https://github.com/tugcekeskin/Takim13-Bootcamp/blob/main/ProjectManagement/Sprint2Documents/product3.jpeg?raw=true)
 
 - **Sprint Review**: 
-Alınan kararlar: Son sprintte tamamen uygulamayı fonksiyonel hale getirmek üzerine çalışılacaktır. Uygulamanın hedefini gerçekleştiren abonelik ve bütçe yönetimi fonksiyonlarına öncelik verilecektir. Sprint Review katılımcıları: Açılay Ayça Özata, Tuğçe Keskin, Selman Altınbaş, Hatice Müberra Gül, Emre Biçer
+Alınan kararlar: Son sprintte tamamen uygulamayı fonksiyonel hale getirmek üzerine çalışılacaktır. Uygulamanın hedefini gerçekleştiren abonelik ve bütçe yönetimi fonksiyonlarına öncelik verilecektir. Paket kullanımında yaşanan sorunların  bir an önce çözülmesine karar verildi. Sprint Review katılımcıları: Açılay Ayça Özata, Tuğçe Keskin, Selman Altınbaş, Hatice Müberra Gül, Emre Biçer
 
 - **Sprint Retrospective:**
-  - Ürünün genel görünüşü tamamlanması iyiydi.
+  - Ürünün genel görünüşünün tamamlanması ürünün geliştirilmesine hız kattı.
   - Veri tabanına bağlama kısmına başlamakta biraz geç kalındı.
   - Uygulama işlevsel hale getirilmeli.
   
