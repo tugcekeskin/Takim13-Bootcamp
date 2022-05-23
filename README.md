@@ -89,14 +89,15 @@ Alınan kararlar: Karar aşaması tahmin edilenden daha uzun sürdüğü için s
 
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
 
-- **Daily Scrum**: Daily Scrum toplantıları açılan Discord sunucusu üzerinden yapılmıştır. Yazılı görüşmeler ise sprint başında Slack üzerinden yapılsa da sonrasında daha rahat iletişim sağlayabilmek amacıyla Whatsapp üzerinden yapılmaya başlanmıştır. Daily Scrum toplantısı örneği Word dosyası olarak README'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/tugcekeskin/Takim13-Bootcamp/blob/main/ProjectManagement/Sprint1Documents/daily-scrum.docx?raw=true)
+- **Daily Scrum**: Daily Scrum toplantıları açılan Discord sunucusu üzerinden yapılmıştır. Yazılı görüşmeler ise sprint başında Slack üzerinden yapılsa da sonrasında daha rahat iletişim sağlayabilmek amacıyla Whatsapp üzerinden yapılmaya başlanmıştır. Daily Scrum toplantısı örneği Word dosyası olarak README'de tarafımızdan paylaşılmaktadır: [Sprint 2 Daily Scrum Chats](https://github.com/tugcekeskin/Takim13-Bootcamp/blob/main/ProjectManagement/Sprint2Documents/daily-scrum.docx?raw=true)
 
 - **Sprint board update**: Sprint board screenshot: 
 ![Backlog 1](!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!) 
 
 - **Ürün Durumu**: Ekran görüntüleri:
-  ![Screenshot 1](!!!!!!!!!!!!!!!!!!!!!!!!!!!)
-  ![Screenshot 2](!!!!!!!!!!!!!!!!!!!!!!!!!!!)
+  ![Screenshot 1](https://github.com/tugcekeskin/Takim13-Bootcamp/blob/main/ProjectManagement/Sprint2Documents/product1.jpeg?raw=true)
+  ![Screenshot 2](https://github.com/tugcekeskin/Takim13-Bootcamp/blob/main/ProjectManagement/Sprint2Documents/product2.jpeg?raw=true)
+  ![Screenshot 3](https://github.com/tugcekeskin/Takim13-Bootcamp/blob/main/ProjectManagement/Sprint2Documents/product3.jpeg?raw=true)
 
 - **Sprint Review**: 
 Alınan kararlar: Karar aşaması tahmin edilenden daha uzun sürdüğü için sprint sonunda katedilen ilerleme beklentiyi karşılamamıştır ve sprint hedefine ulaşılamamıştır.  Uygulama sayfalarının tasarımlarının çoğu tamamlanmış, veritabanı, kullanıcı girişi ve kullanıcıya bildirim gönderme gibi işlevlerin sağlanabilmesi için firebase kullanılmasına karar verilmiştir. Sprint Review katılımcıları: Açılay Ayça Özata, Tuğçe Keskin, Selman Altınbaş, Hatice Müberra Gül, Emre Biçer
