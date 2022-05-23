@@ -64,7 +64,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
   ![Screenshot 2](https://github.com/tugcekeskin/Takim13-Bootcamp/blob/main/ProjectManagement/Sprint1Documents/product2.png?raw=true)
 
 - **Sprint Review**: 
-Alınan kararlar: Karar aşaması tahmin edilenden daha uzun sürdüğü için sprint sonunda katedilen ilerleme beklentiyi karşılamamıştır ve sprint hedefine ulaşılamamıştır.  Ekstra koyulması gereken özellikler belirlenmiştir. Sprint Review katılımcıları: Açılay Ayça Özata, Tuğçe Keskin, Selman Altınbaş, Hatice Müberra Gül, Emre Biçer
+Alınan kararlar: Karar aşaması tahmin edilenden daha uzun sürdüğü için sprint sonunda katedilen ilerleme beklentiyi karşılamamıştır ve sprint hedefine ulaşılamamıştır.  Ekstra koyulması gereken özellikler belirlenmiştir. Sprint Review katılımcıları: Tuğçe Keskin, Selman Altınbaş, Hatice Müberra Gül
 
 - **Sprint Retrospective:**
   - Ürünün kararlaştırılması ve taslak tasarımın yapılması konusundaki çalışmalar başarılıydı.
@@ -83,13 +83,13 @@ Alınan kararlar: Karar aşaması tahmin edilenden daha uzun sürdüğü için s
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: ???? Puan
 
-- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 400 puanlık backlog bulunmaktadır. Uygulamanın fonksiyonları arasında öncelik sıralaması yapıldığında ve karar aşamasındaki gecikmeler göz önüne alıdığında genel uygulama taslak tasarımları tamamlandıktan sonra ikinci sprint'in en azından ???? puan ile başlaması gerektiğine karar verildi.
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 400 puanlık backlog bulunmaktadır. Bu sprintte hedef uygulamanın genel görünüşünü tamamlamak ve veri tabanı üzerine daha çok bilgi sahibi olmaktı. Veri tabanına bağlanmadığı ve uygulama fonksiyonel hale henüz gelmediği için task odaklı gidildi ve yüksek bir puan tamamlanması mümkün değildi.
 
-- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint'te karar aşamasındaki gecikmelerden ötürü istenilen ilerleme alınamasa da temel fonksiyon olan "Abonelik" için seçimler yapılmıştır. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
+- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Tüm user storylerin belirli taskleri yerine getirilmiştir.
 
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
 
-- **Daily Scrum**: Daily Scrum toplantıları açılan Discord sunucusu üzerinden yapılmıştır. Yazılı görüşmeler ise sprint başında Slack üzerinden yapılsa da sonrasında daha rahat iletişim sağlayabilmek amacıyla Whatsapp üzerinden yapılmaya başlanmıştır. Daily Scrum toplantısı örneği Word dosyası olarak README'de tarafımızdan paylaşılmaktadır: [Sprint 2 Daily Scrum Chats](https://github.com/tugcekeskin/Takim13-Bootcamp/blob/main/ProjectManagement/Sprint2Documents/daily-scrum.docx?raw=true)
+- **Daily Scrum**: Daily Scrum toplantıları açılan Discord sunucusu üzerinden yapılmıştır. Yazılı görüşmeler ise Whatsapp üzerinden yapılmıştır. Daily Scrum toplantısı örneği Word dosyası olarak README'de tarafımızdan paylaşılmaktadır: [Sprint 2 Daily Scrum Chats](https://github.com/tugcekeskin/Takim13-Bootcamp/blob/main/ProjectManagement/Sprint2Documents/daily-scrum.docx?raw=true)
 
 - **Sprint board update**: Sprint board screenshot: 
 ![Backlog 1](!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!) 
