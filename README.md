@@ -103,7 +103,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 Alınan kararlar: Son sprintte tamamen uygulamayı fonksiyonel hale getirmek üzerine çalışılacaktır. Uygulamanın hedefini gerçekleştiren abonelik ve bütçe yönetimi fonksiyonlarına öncelik verilecektir. Sprint Review katılımcıları: Açılay Ayça Özata, Tuğçe Keskin, Selman Altınbaş, Hatice Müberra Gül, Emre Biçer
 
 - **Sprint Retrospective:**
-  - Ürünün genel görünüşü tamamlandı.
+  - Ürünün genel görünüşü tamamlanması iyiydi.
   - Veri tabanına bağlama kısmına başlamakta biraz geç kalındı.
   - Uygulama işlevsel hale getirilmeli.
   
