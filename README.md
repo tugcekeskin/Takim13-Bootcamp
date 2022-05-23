@@ -83,7 +83,7 @@ Alınan kararlar: Karar aşaması tahmin edilenden daha uzun sürdüğü için s
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: ???? Puan
 
-- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 400 puanlık backlog bulunmaktadır. Bu sprintte hedef uygulamanın genel görünüşünü tamamlamak ve veri tabanı üzerine daha çok bilgi sahibi olmaktı. Veri tabanına bağlanmadığı ve uygulama fonksiyonel hale henüz gelmediği için task odaklı gidildi ve yüksek bir puan tamamlanması mümkün değildi.
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 400 puanlık backlog bulunmaktadır. Bu sprintte hedef, uygulamanın genel görünüşünü tamamlamak ve veri tabanı üzerine daha çok bilgi sahibi olmaktı. Uygulama veri tabanına bağlanılarak işlevsel hale henüz gelmediği için user storylerin kabul kriterlerinin hepsinin tamamlanılarak yüksek bir puan tamamlanması mümkün değildi. 
 
 - **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Tüm user storylerin belirli taskleri yerine getirilmiştir.
 
@@ -100,13 +100,12 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
   ![Screenshot 3](https://github.com/tugcekeskin/Takim13-Bootcamp/blob/main/ProjectManagement/Sprint2Documents/product3.jpeg?raw=true)
 
 - **Sprint Review**: 
-Alınan kararlar: Karar aşaması tahmin edilenden daha uzun sürdüğü için sprint sonunda katedilen ilerleme beklentiyi karşılamamıştır ve sprint hedefine ulaşılamamıştır.  Uygulama sayfalarının tasarımlarının çoğu tamamlanmış, veritabanı, kullanıcı girişi ve kullanıcıya bildirim gönderme gibi işlevlerin sağlanabilmesi için firebase kullanılmasına karar verilmiştir. Sprint Review katılımcıları: Açılay Ayça Özata, Tuğçe Keskin, Selman Altınbaş, Hatice Müberra Gül, Emre Biçer
+Alınan kararlar: Son sprintte tamamen uygulamayı fonksiyonel hale getirmek üzerine çalışılacaktır. Uygulamanın hedefini gerçekleştiren abonelik ve bütçe yönetimi fonksiyonlarına öncelik verilecektir. Sprint Review katılımcıları: Açılay Ayça Özata, Tuğçe Keskin, Selman Altınbaş, Hatice Müberra Gül, Emre Biçer
 
 - **Sprint Retrospective:**
-  - Ürünün kararlaştırılması ve taslak tasarımın yapılması konusundaki çalışmalar başarılıydı.
-  - User story hedefleri en başından net olarak belirlenmeli ve belirlenen user storynin tüm taskleri yerine getirilmek üzere görev dağılımı yapılmalı
-  - Tahmin puanları gözden geçirilmeli 
-  - Uygulama tasarımı gözden geçirilmeli
+  - Ürünün genel görünüşü tamamlandı.
+  - Veri tabanına bağlama kısmına başlamakta biraz geç kalındı.
+  - Uygulama işlevsel hale getirilmeli.
   
 -**Diğer Notlar**:
 - N/A
