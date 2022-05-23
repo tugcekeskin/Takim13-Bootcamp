@@ -92,7 +92,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 - **Daily Scrum**: Daily Scrum toplantıları açılan Discord sunucusu üzerinden yapılmıştır. Yazılı görüşmeler ise Whatsapp üzerinden yapılmıştır. Daily Scrum toplantısı örneği Word dosyası olarak README'de tarafımızdan paylaşılmaktadır: [Sprint 2 Daily Scrum Chats](https://github.com/tugcekeskin/Takim13-Bootcamp/blob/main/ProjectManagement/Sprint2Documents/daily-scrum.docx?raw=true)
 
 - **Sprint board update**: Sprint board screenshot: 
-![Backlog 1](!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!) 
+![Backlog 1](https://github.com/tugcekeskin/Takim13-Bootcamp/blob/main/ProjectManagement/Sprint2Documents/backlog1.jpeg?raw=true) 
 
 - **Ürün Durumu**: Ekran görüntüleri:
   ![Screenshot 1](https://github.com/tugcekeskin/Takim13-Bootcamp/blob/main/ProjectManagement/Sprint2Documents/product1.jpeg?raw=true)
