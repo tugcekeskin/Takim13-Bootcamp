@@ -81,9 +81,9 @@ Alınan kararlar: Karar aşaması tahmin edilenden daha uzun sürdüğü için s
 
 - **Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: ???? Puan
+- **Sprint içinde tamamlanması tahmin edilen puan**: 180 Puan
 
-- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 400 puanlık backlog bulunmaktadır. Bu sprintte hedef, uygulamanın genel görünüşünü tamamlamak ve veri tabanı üzerine daha çok bilgi sahibi olmaktı. Uygulama veri tabanına bağlanılarak işlevsel hale henüz gelmediği için user storylerin kabul kriterlerinin hepsinin tamamlanılarak yüksek bir puan tamamlanması mümkün değildi. 
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 400 puanlık backlog bulunmaktadır. Bu sprintte hedef, uygulamanın genel görünüşünü tamamlamak ve veri tabanına bağlamaya başlamaktı. Hedef, ana fonksiyon olan "Abonelik" fonksiyonununu user storylerini tamamlamaktı. Bu, toplamda 180 puan ediyor. Fakat ürün veri tabanına bağlanılarak işlevsel hale henüz gelmediği için user storylerin kabul kriterlerinin hepsi tamamlanamadı. 
 
 - **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Tüm user storylerin belirli taskleri yerine getirilmiştir.
 
