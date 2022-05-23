@@ -23,6 +23,7 @@ class _AbonelikFormState extends State<AbonelikForm> {
           child: Column(
             children: <Widget>[
               Container(
+                margin: EdgeInsets.only(bottom: 20),
                 alignment: Alignment.center,
                 child: Container(
                     height: 120,
@@ -42,16 +43,18 @@ class _AbonelikFormState extends State<AbonelikForm> {
                   ),
               ),
               ),
+              SeperatorBox(),
+              Container(
+                child:
+                  Text('emre'),
+              ),
+              SeperatorBox(),
             ],
           ),
         ),
       ),
     );
   }
-
-
-
-
 
 
   AppBar buildAppBar() {
@@ -74,4 +77,35 @@ class _AbonelikFormState extends State<AbonelikForm> {
     );
   }
 }
+
+
+
+
+
+class SeperatorBox extends StatelessWidget {
+  const SeperatorBox({
+    Key? key,
+  }) : super(key: key);
+
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      margin: EdgeInsets.only(top: 0, right: 20, left: 20),
+      height: 2,
+      child: Expanded(
+        child: SizedBox(
+          width: 3000,
+          height: 2,
+          child: const DecoratedBox(
+            decoration: const BoxDecoration(
+                color: Color(0xFFDCDEDD)
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
 
