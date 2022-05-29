@@ -1,3 +1,4 @@
+import 'package:aboneliksayfasi/butceSayfasi/butce_form.dart';
 import 'package:flutter/material.dart';
 
 class TabbarArea extends StatefulWidget {
@@ -167,7 +168,9 @@ class Button extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FloatingActionButton(
-      onPressed: (){},
+      onPressed: (){
+        Navigator.of(context).push(MaterialPageRoute(builder: (context) => ButceForm(),));
+      },
       child: Icon(Icons.add),
       );
   }
