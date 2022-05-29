@@ -1,6 +1,7 @@
 
 
 
+import 'package:aboneliksayfasi/abonelikListe/abonelik_liste.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -147,7 +148,12 @@ class FloatingButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return FloatingActionButton(onPressed: () { }, child: Icon(Icons.add));
+    return FloatingActionButton(
+      onPressed: () { 
+        Navigator.of(context).push(MaterialPageRoute(builder: (context) => AbonelikListe(),));
+      }, 
+      child: Icon(Icons.add)
+      );
   }
 }
 
