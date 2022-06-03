@@ -113,5 +113,37 @@ Alınan kararlar: Son sprintte tamamen uygulamayı fonksiyonel hale getirmek üz
 ---
 
 # Sprint 3
+- **Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
 
+- **Sprint içinde tamamlanması tahmin edilen puan**: ???????? Puan
+
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 400 puanlık backlog bulunmaktadır. Bu sprintte hedef, uygulamanın genel görünüşünü tamamlayarak veri tabanına bağlamak ve uygulamayı fonksiyonel hale getirmekti. Öncelikli hedef, ana fonksiyon olan "Abonelik" fonksiyonunun user storylerini tamamlayarak çalışır duruma getirmekti. Bu, toplamda ????? puan ediyor. 
+
+- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Tüm user storylerin belirli taskleri yerine getirilmiştir. Tamamlanan user stroyler vardır.
+
+Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
+
+- **Daily Scrum**: Daily Scrum toplantıları açılan Discord sunucusu üzerinden yapılmıştır. Yazılı görüşmeler ise Whatsapp üzerinden yapılmıştır. Daily Scrum toplantısı örneği Word dosyası olarak README'de tarafımızdan paylaşılmaktadır: [Sprint 2 Daily Scrum Chats](????????????)
+
+- **Sprint board update**: Sprint board screenshot: 
+![Backlog 1](??????????) 
+
+- **Ürün Durumu**: Ekran görüntüleri:
+  ![Screenshot 1](????????????)
+  ![Screenshot 2](????????????)
+  ![Screenshot 3](????????????)
+  ![Screenshot 3](????????????)
+
+- **Sprint Review**: 
+Alınan kararlar: Sprint sonunda uygulamanın tasaramının tamamamlanarak fonksiyonel hale getirilmesi için çalışıldı. Uygulamanın hedefini gerçekleştiren abonelik ve bütçe yönetimi fonksiyonlarına öncelik verildi. Paket kullanımında yaşanan sorunların çözümü için araştırma yapıldı ve **??çözüm uygulandı??**. **???Abonelik sayfası fonksiyonel hale getirlildi.????** Sprint Review katılımcıları: Açılay Ayça Özata, Tuğçe Keskin, Selman Altınbaş, Hatice Müberra Gül, Emre Biçer
+
+- **Sprint Retrospective:**
+  - Fikir listesinin hazırlanması çalışma sürecinde üzerine düşünülen ve takımca çıkmaza giridiği düşünülen fikri pivot etme konusunda işe yaradı.
+  - Taslak tasarımların yapılması fikri somutlaştırmakta yardımcı oldu.
+  - Ürünün genel görünüşünün tamamlanması ürünün geliştirilmesine hız kattı.
+  - Veri tabanına bağlama kısmına başlamak için daha erken adım atılmalıydı.
+  - Uygulamanın işlevsel hale getirilmesi önceliklendirilmeliydi.
+  
+-**Diğer Notlar**:
+- N/A
 ---
