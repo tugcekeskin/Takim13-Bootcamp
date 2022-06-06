@@ -2,37 +2,40 @@ import 'package:aboneliksayfasi/butceSayfasi/butce_form.dart';
 import 'package:flutter/material.dart';
 
 class TabbarArea extends StatefulWidget {
-
-   TabbarArea({Key? key}) : super(key: key);
+   const TabbarArea({Key? key}) : super(key: key);
 
   @override
   State<TabbarArea> createState() => _TabbarAreaState();
 }
 
 class _TabbarAreaState extends State<TabbarArea> with TickerProviderStateMixin{
-  
-
   @override
   Widget build(BuildContext context) {
     TabController _tabController = TabController(length: 3, vsync: this);
 
     return Scaffold(
-      
+      appBar: AppBar(
+        toolbarHeight: 0.0,
+      ),
       floatingActionButton: Button(),
     
       body: ListView(
-        children: [            
+        children: [  
+          SizedBox(height: 50,),          
            Container(             
             child: Center(
               child: Column(mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Text('1650 tl',style: TextStyle(fontSize: 30),),
-                  ElevatedButton(onPressed: (){}, child: Text('Analizlere Git'))
+                  
+                  Text('1650 TL',style: TextStyle(fontSize: 30),),
+                  ElevatedButton(onPressed: (){}, child: Text('Analizlere Git')),
+                  //SizedBox(height: 20,),
                 ],
               ),
             ),
           ),
 
+        SizedBox(height: 20,),
       Container(
         child: Align(
           alignment: Alignment.center,
