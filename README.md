@@ -115,9 +115,9 @@ Alınan kararlar: Son sprintte tamamen uygulamayı fonksiyonel hale getirmek üz
 # Sprint 3
 - **Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: ???????? Puan
+- **Sprint içinde tamamlanması tahmin edilen puan**: 170 Puan
 
-- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 400 puanlık backlog bulunmaktadır. Bu sprintte hedef, uygulamanın genel görünüşünü tamamlayarak veri tabanına bağlamak ve uygulamayı fonksiyonel hale getirmekti. Öncelikli hedef, ana fonksiyon olan "Abonelik" fonksiyonunun user storylerini tamamlayarak çalışır duruma getirmekti. Bu, toplamda ????? puan ediyor. 
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 400 puanlık backlog bulunmaktadır. Bu sprintte hedef, uygulamayı veri tabanına bağlayarak işlevsel hale getirmekti. Önceki sprintlerde de hedefe ulaşılamadığı için 170 puandan fazlasının tamamlanması gerekiyordu.
 
 - **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Tüm user storylerin belirli taskleri yerine getirilmiştir. Tamamlanan user stroyler vardır.
 
@@ -135,14 +135,11 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
   ![Screenshot 3](????????????)
 
 - **Sprint Review**: 
-Alınan kararlar: Sprint sonunda uygulamanın tasaramının tamamamlanarak fonksiyonel hale getirilmesi için çalışıldı. Uygulamanın hedefini gerçekleştiren abonelik ve bütçe yönetimi fonksiyonlarına öncelik verildi. Paket kullanımında yaşanan sorunların çözümü için araştırma yapıldı ve **??çözüm uygulandı??**. **???Abonelik sayfası fonksiyonel hale getirlildi.????** Sprint Review katılımcıları: Açılay Ayça Özata, Tuğçe Keskin, Selman Altınbaş, Hatice Müberra Gül, Emre Biçer
+Alınan kararlar: Sprint sonunda uygulamanın tasaramının tamamamlanarak fonksiyonel hale getirilmesi için çalışıldı. Uygulamanın ana fonksiyonu olan abonelik ve ek fonksiyonu olan bütçe yönetimi fonksiyonlarına öncelik verildi. Uygulamanın UI kısmı tamamlansa da backend kısmı tamamlanamadı. Tamamlanan kısımlar:??????????????????? Sprint Review katılımcıları: Açılay Ayça Özata, Tuğçe Keskin, Selman Altınbaş, Hatice Müberra Gül, Emre Biçer
 
 - **Sprint Retrospective:**
-  - Fikir listesinin hazırlanması çalışma sürecinde üzerine düşünülen ve takımca çıkmaza giridiği düşünülen fikri pivot etme konusunda işe yaradı.
-  - Taslak tasarımların yapılması fikri somutlaştırmakta yardımcı oldu.
-  - Ürünün genel görünüşünün tamamlanması ürünün geliştirilmesine hız kattı.
-  - Veri tabanına bağlama kısmına başlamak için daha erken adım atılmalıydı.
   - Uygulamanın işlevsel hale getirilmesi önceliklendirilmeliydi.
+  - Tamamen çalışan bir ürün elde edilemedi.
   
 -**Diğer Notlar**:
 - N/A
