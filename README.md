@@ -123,16 +123,15 @@ Alınan kararlar: Son sprintte tamamen uygulamayı fonksiyonel hale getirmek üz
 
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
 
-- **Daily Scrum**: Daily Scrum toplantıları açılan Discord sunucusu üzerinden yapılmıştır. Yazılı görüşmeler ise Whatsapp üzerinden yapılmıştır. Daily Scrum toplantısı örneği Word dosyası olarak README'de tarafımızdan paylaşılmaktadır: [Sprint 2 Daily Scrum Chats](????????????)
+- **Daily Scrum**: Daily Scrum toplantıları açılan Discord sunucusu üzerinden yapılmıştır. Yazılı görüşmeler ise Whatsapp üzerinden yapılmıştır. Daily Scrum toplantısı örneği Word dosyası olarak README'de tarafımızdan paylaşılmaktadır: [Sprint 3 Daily Scrum Chats](https://github.com/tugcekeskin/Takim13-Bootcamp/blob/main/ProjectManagement/Sprint3Documents/daily-scrum.docx?raw=true)
 
 - **Sprint board update**: Sprint board screenshot: 
-![Backlog 1](??????????) 
+![Backlog 1](https://github.com/tugcekeskin/Takim13-Bootcamp/blob/main/ProjectManagement/Sprint3Documents/backlog1.png?raw=true) 
 
 - **Ürün Durumu**: Ekran görüntüleri:
-  ![Screenshot 1](????????????)
-  ![Screenshot 2](????????????)
-  ![Screenshot 3](????????????)
-  ![Screenshot 3](????????????)
+  ![Screenshot 1](https://github.com/tugcekeskin/Takim13-Bootcamp/blob/main/ProjectManagement/Sprint3Documents/product1.jpeg?raw=true)
+  ![Screenshot 2](https://github.com/tugcekeskin/Takim13-Bootcamp/blob/main/ProjectManagement/Sprint3Documents/product2.jpeg?raw=true)
+  ![Screenshot 3](https://github.com/tugcekeskin/Takim13-Bootcamp/blob/main/ProjectManagement/Sprint3Documents/product3.jpeg?raw=true)
 
 - **Sprint Review**: 
 Alınan kararlar: Sprint sonunda uygulamanın tasaramının tamamamlanarak fonksiyonel hale getirilmesi için çalışıldı. Uygulamanın ana fonksiyonu olan abonelik ve ek fonksiyonu olan bütçe yönetimi fonksiyonlarına öncelik verildi. Uygulamanın UI kısmı tamamlansa da backend kısmı tamamlanamadı. Tamamlanan kısımlar:??????????????????? Sprint Review katılımcıları: Açılay Ayça Özata, Tuğçe Keskin, Selman Altınbaş, Hatice Müberra Gül, Emre Biçer
