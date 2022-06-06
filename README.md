@@ -141,5 +141,9 @@ Alınan kararlar: Sprint sonunda uygulamanın tasaramının tamamamlanarak fonks
   - Tamamen çalışan bir ürün elde edilemedi.
   
 -**Diğer Notlar**:
-- N/A
+  - Fikir listesinin hazırlanması çalışma sürecinde üzerine düşünülen ve takımca çıkmaza giridiği düşünülen fikri pivot etme konusunda işe yaradı.
+  - Taslak tasarımların yapılması fikri somutlaştırmakta yardımcı oldu.
+  - Ürünün genel görünüşünün tamamlanması ürünün geliştirilmesine hız kattı.
+  - Veri tabanına bağlama kısmına başlamak için daha erken adım atılmalıydı.
+  - Uygulamanın işlevsel hale getirilmesi önceliklendirilmeliydi.
 ---
