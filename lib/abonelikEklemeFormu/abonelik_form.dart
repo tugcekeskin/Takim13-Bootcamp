@@ -1,8 +1,9 @@
-import 'package:aboneliksayfasi/abonelikListe/AddCustomSub.dart';
-import 'package:aboneliksayfasi/abonelikListe/ReccomendedSubs.dart';
-import 'package:aboneliksayfasi/abonelikListe/SearchBox.dart';
+
+import 'package:aboneliksayfasi/model/abonelikler_database.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+
+import '../abonelik_sayfasi.dart';
 
 class AbonelikForm extends StatefulWidget {
   const AbonelikForm({Key? key}) : super(key: key);
@@ -12,129 +13,192 @@ class AbonelikForm extends StatefulWidget {
 }
 
 class _AbonelikFormState extends State<AbonelikForm> {
+   
+    String secilenRemember = '1 Gün Önce'; 
+    final _formKey = GlobalKey<FormState>();
+    var aa = TextEditingController();
+    var bb = TextEditingController();
+    var cc = TextEditingController();
+   
+    Future<void> kayit(String abonelik_ad, String baslangic_tarihi, String abonelik_ucreti) async {
+      await AboneliklerDatabase().AbonelikEkle(abonelik_ad, baslangic_tarihi, abonelik_ucreti);
+      Navigator.push(context, MaterialPageRoute(builder: (context) => AbonelikSayfasi(),));
+    }
+  
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: false,
+      backgroundColor: Color(0xFFf8f9fa),
       appBar: buildAppBar(),     
-      body: Menu(),
-    );
-  }
-
-  SingleChildScrollView Menu() {
-    return SingleChildScrollView(
-      scrollDirection: Axis.vertical,
-      child: Column(
-        children: [
-          Container(
-            alignment: Alignment.center,
-            child: Padding(
-              padding: const EdgeInsets.symmetric(vertical: 5),
-              child: Container(
-                  height: 80,
-                  width: 80,
-                  decoration:
-                  const BoxDecoration(
-                    color: Color(0xFF9B9D9C),
-                    shape: BoxShape.circle,
-              ),
-                alignment: Alignment.center,
-                child:
-                const Text('T',
-                  style: TextStyle(
-                    fontSize: 65.0,
-                    fontWeight: FontWeight.bold,
-                    color: Color(0xFFFFFFFF)),
-                ),
+      body: Form(
+        key: _formKey,
+       autovalidateMode: AutovalidateMode.onUserInteraction,
+        child: Column(
+          children: [
+             SvgPicture.asset('assets/icons/pencil.svg',height: 77),
+             Padding(
+               padding: const EdgeInsets.symmetric(horizontal: 15),
+               child: Row(
+      children: [
+        Expanded(flex: 2, child: Text('Abonelik Adı',style: TextStyle(fontWeight: FontWeight.bold),)),
+        Expanded(flex: 1, child: TextField(
+          controller: aa,
+          decoration: InputDecoration(
+            errorStyle: TextStyle(color: Colors.red),
+            hintText: 'TWİTCH',
+            border: InputBorder.none,
+            
           ),
-            ),
-          ),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 15),
-            child: Item(),
-          ),
-          AllDivider(),
-           MoneyArea(),
-        AllDivider(),            
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 15),
-          child: DropdownArea(),
-        ),
-        AllDivider(),
-
-        SubscriptionTime(),
-        AllDivider(),
-        SubscriptionDate(),
-        AllDivider(),
-        SubscriptionRemember(),     
-        NoteArea(),      
+        )),
+      ],
+    ),
+             ),
           
-        ],
-      ),
-    );
-  }
-
-  Padding SubscriptionRemember() {
-    return Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 15),
-             child: Row(
-                children: [
-                  Expanded(flex: 2, child: Text('Hatırlatıcı',style: TextStyle(fontWeight: FontWeight.bold),)),
-                  Expanded( flex: 1, child: DropdownButton<String>(alignment: Alignment.center,
-                items: [
-             DropdownMenuItem<String>(child: Text('haftalık'),value: 'dsd',),
-             DropdownMenuItem<String>(child: Text('aylık'),value: 'gtrg',),
-             DropdownMenuItem<String>(child: Text('yıllık'),value: 'kuj',),
-      ], onChanged: (String ){
-        
-          },hint: Text('1 gün önce'),
-            value: null,) ),
-          ],
+           Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 15),
+      child: Divider(height: 0, color: Colors.black,),
            ),
-         );
-  }
 
-  Padding SubscriptionTime() {
-    return Padding(
-       padding: const EdgeInsets.symmetric(horizontal: 15),
-      child: Row(
+
+           Padding(
+             padding: const EdgeInsets.symmetric(horizontal: 15),
+             child: Row(
+       children: [
+       Expanded(flex: 2, child: Text('Ücreti',style: TextStyle(fontWeight: FontWeight.bold),)),
+       Expanded(flex: 1, child: TextField(
+            controller: cc,
+              decoration: InputDecoration(
+          hintText: '9,90 tl',
+          border: InputBorder.none,contentPadding: EdgeInsets.symmetric(horizontal: 9)
+          ),
+        )),
+        ],
+        ),
+           ),
+
+         Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 15),
+      child: Divider(height: 0, color: Colors.black,),
+          ),
+
+           Padding(
+             padding: const EdgeInsets.symmetric(horizontal: 15),
+             child: Row(
        children: [
         Expanded(flex: 2, child: Text('Yineleme',style: TextStyle(fontWeight: FontWeight.bold),)),
         Expanded(flex: 1, child: TextField(
-           decoration: InputDecoration(
-           hintText: '1 Ay',
-          border: InputBorder.none,contentPadding: EdgeInsets.symmetric(horizontal: 9)
-        ),
-       )),
-         ],
-      ),
-        );
-  }
-
-  Padding MoneyArea() {
-    return Padding(
-         padding: const EdgeInsets.symmetric(horizontal: 15),
-         child: Row(
-     children: [
-     Expanded(flex: 2, child: Text('Ücreti',style: TextStyle(fontWeight: FontWeight.bold),)),
-     Expanded(flex: 1, child: TextField(
+           
           decoration: InputDecoration(
-               hintText: '9,90 tl',
-               border: InputBorder.none,contentPadding: EdgeInsets.symmetric(horizontal: 9)
-        ),
-      )),
+          hintText: '1 Ay',
+          border: InputBorder.none,contentPadding: EdgeInsets.symmetric(horizontal: 9)
+             ),
+             )),
+            ],
+            ),
+             ), 
+
+          Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 15),
+      child: Divider(height: 0, color: Colors.black,),
+          ),
+
+          Padding(
+       padding: const EdgeInsets.symmetric(horizontal: 15),
+       child: Row(
+      children: [
+        Expanded(flex: 2, child: Text('Başlangıç Tarihi',style: TextStyle(fontWeight: FontWeight.bold),)),
+        Expanded(flex: 1, child: TextField(
+           controller: bb,
+          decoration: InputDecoration(
+            hintText: '16 Temmuz',
+            border: InputBorder.none,
+            
+          ),
+        )),
       ],
+    )
+          ),
+
+         Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 15),
+      child: Divider(height: 0, color: Colors.black,),
+          ),
+
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 15),
+            child: Row(
+              children: [
+                Expanded(flex: 2, child: Text('Hatırlatıcı',style: TextStyle(fontWeight: FontWeight.bold),)),
+                Expanded(
+                  flex: 1,
+                  child: DropdownButton<String>(
+                    alignment: Alignment.center,
+                    items: [
+                      DropdownMenuItem<String>(child: Text('1 Gün Önce'),value: '1 Gün Önce',),
+                      DropdownMenuItem<String>(child: Text('3 Gün Önce'),value: '3 Gün Önce',),
+                      DropdownMenuItem<String>(child: Text('5 Gün Önce'),value: '5 Gün Önce',),
+                    ],
+                    onChanged: (gelenDeger){
+                            setState(() {
+                           secilenRemember = gelenDeger.toString();
+                            });
+                    },
+                    hint: Text('1 Gün Önce'),
+                    value: secilenRemember,
+                          ),
+                ) 
+              ],
+            ),
+          ),
+
+          
+
+          Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 12),
+      child: TextField(
+        
+             
+        minLines: 5,
+        maxLines: 5,
+        keyboardType: TextInputType.multiline,
+        decoration: InputDecoration(
+          counter: ElevatedButton(onPressed: (){
+            kayit(aa.text, bb.text, cc.text);
+
+          /*  bool _validate = _formKey.currentState!.validate();
+           if(_validate){
+             _formKey.currentState!.save();
+             String result = 'username: $_isim\nemail: $_ucret\nsifre: $_tekrar ';
+             ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(result)));
+             _formKey.currentState!.reset();
+           } */
+          }, child: Text('Kaydet')),
+          hintText: 'Not Ekle',
+          border: OutlineInputBorder(
+            borderRadius: BorderRadius.all(Radius.circular(12))
+          )
+        ),
       ),
-        );
+      ),
+
+          
+
+          ],
+      ))
+    );
   }
 
+  
 
-
-
-
-
+  
+  
+  
   AppBar buildAppBar() {
+
     return AppBar(
-      backgroundColor: Color(0xFFFFFFFF),
+      backgroundColor: Colors.transparent,
       elevation: 0,
       leading: IconButton(icon: Icon(Icons.close_rounded,
         color: Color(0xFF01395E),
@@ -151,117 +215,7 @@ class _AbonelikFormState extends State<AbonelikForm> {
             color: Color(0xFF01395E)),),
     );
   }
-}
-
-class SubscriptionDate extends StatelessWidget {
-  const SubscriptionDate({
-    Key? key,
-  }) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-       padding: const EdgeInsets.symmetric(horizontal: 15),
-       child: Row(
-      children: [
-        Expanded(flex: 5, child: Text('Başlangıç Tarihi',style: TextStyle(fontWeight: FontWeight.bold),)),
-        Expanded(flex: 4, child: Row(
-           children: [
-              IconButton(onPressed: (){}, icon: Icon(Icons.calendar_month)),
-              TextButton(onPressed: (){}, child: Text('02/05/2022'))
-           ],
-           )),
-         ],
-          ),
-          );
-  }
-}
-
-class Item extends StatelessWidget {
-  const Item({
-    Key? key,
-  }) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Row(
-      children: [
-        Expanded(flex: 2, child: Text('Abonelik Adı',style: TextStyle(fontWeight: FontWeight.bold),)),
-        Expanded(flex: 1, child: TextField(
-          decoration: InputDecoration(
-            hintText: 'TWİTCH',
-            border: InputBorder.none,
-            
-          ),
-        )),
-      ],
-    );
-  }
-}
-
-
-class AllDivider extends StatelessWidget {
-  const AllDivider({
-    Key? key,
-  }) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 15),
-      child: Divider(height: 0, color: Colors.black,),
-    );
-  }
-}
-
-class DropdownArea extends StatelessWidget {
   
-   DropdownArea({
-    Key? key,
-  }) : super(key: key);
+  
 
-  @override
-  Widget build(BuildContext context) {
-    return Row(
-      children: [
-        Expanded(flex: 2, child: Text('Ödeme Periyodu',style: TextStyle(fontWeight: FontWeight.bold),)),
-        Expanded(
-          flex: 1, child: DropdownButton<String>(
-            alignment: Alignment.center,
-            items: [
-             DropdownMenuItem<String>(child: Text('haftalık'),value: 'dsd',),
-             DropdownMenuItem<String>(child: Text('aylık'),value: 'gtrg',),
-             DropdownMenuItem<String>(child: Text('yıllık'),value: 'kuj',),
-          ], onChanged: (String ){
-            
-          },hint: Text('Aylık'),value: null,) ),
-      ],
-    );
-  }
-}
-
-
-class NoteArea extends StatelessWidget {
-  const NoteArea({
-    Key? key,
-  }) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 12),
-      child: TextFormField(
-        minLines: 5,
-        maxLines: 5,
-        keyboardType: TextInputType.multiline,
-        decoration: InputDecoration(
-          counter: ElevatedButton(onPressed: (){}, child: Text('Kaydet')),
-          hintText: 'Not Ekle',
-          border: OutlineInputBorder(
-            borderRadius: BorderRadius.all(Radius.circular(12))
-          )
-        ),
-      ),
-    );
-  }
 }
