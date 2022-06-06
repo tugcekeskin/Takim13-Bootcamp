@@ -134,7 +134,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
   ![Screenshot 3](https://github.com/tugcekeskin/Takim13-Bootcamp/blob/main/ProjectManagement/Sprint3Documents/product3.jpeg?raw=true)
 
 - **Sprint Review**: 
-Alınan kararlar: Sprint sonunda uygulamanın tasaramının tamamamlanarak fonksiyonel hale getirilmesi için çalışıldı. Uygulamanın ana fonksiyonu olan abonelik ve ek fonksiyonu olan bütçe yönetimi fonksiyonlarına öncelik verildi. Uygulamanın UI kısmı tamamlansa da backend kısmı tamamlanamadı. Tamamlanan kısımlar:??????????????????? Sprint Review katılımcıları: Açılay Ayça Özata, Tuğçe Keskin, Selman Altınbaş, Hatice Müberra Gül, Emre Biçer
+Alınan kararlar: Sprint sonunda uygulamanın tasaramının tamamamlanarak fonksiyonel hale getirilmesi için çalışıldı. Uygulamanın ana fonksiyonu olan abonelik ve ek fonksiyonu olan bütçe yönetimi fonksiyonlarına öncelik verildi. Uygulamanın UI kısmı tamamlansa da backend kısmı tamamlanamadı. Tamamlanan kısımlar: Abonelik ve bütçe sayfası firebase bağlantısı dışında genel anlamda tasarımsal ve girdi ekleme, silme, kaydetme gibi fonksiyonları kapsayacak şekilde tamamlandı. Sprint Review katılımcıları: Açılay Ayça Özata, Tuğçe Keskin, Selman Altınbaş, Hatice Müberra Gül, Emre Biçer
 
 - **Sprint Retrospective:**
   - Uygulamanın işlevsel hale getirilmesi önceliklendirilmeliydi.
