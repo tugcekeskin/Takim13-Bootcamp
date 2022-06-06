@@ -38,6 +38,7 @@ dependencies:
   path: ^1.8.1
   sqflite: ^2.0.2+1
   flutter_local_notifications: ^9.6.0
+  hive_flutter: ^1.1.0
   
 dev_dependencies:
   flutter_test:

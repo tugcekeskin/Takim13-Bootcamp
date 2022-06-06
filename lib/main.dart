@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Material App',
+      title: 'Subss',
       theme: ThemeData(
         bottomNavigationBarTheme: BottomNavigationBarThemeData(
           elevation: 0
